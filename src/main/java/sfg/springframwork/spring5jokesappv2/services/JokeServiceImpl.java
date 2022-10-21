@@ -13,7 +13,7 @@ public class JokeServiceImpl implements JokeService {
     }
 
     @Override
-    public String GetJoke() {
+    public String getJoke() {
         return chuckNorrisQuotes.getRandomQuote();
     }
 }
